@@ -7,7 +7,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 20;
+  /* line-height: 20; */
   color: lightgrey;
   background-color: #f5f5f5;
   padding: 20px;
@@ -24,15 +24,18 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
+h1 {
+  color: black;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   font-weight: 300;
+  text-wrap: balance;
 }
 
-header p {
+p {
+  outline: 1px black;
   font-size: 1.1rem;
-  opacity: 0.9;
+  margin-bottom: 0.5rem;
 }
 
 /* Main content */
@@ -51,8 +54,8 @@ section {
   border-left: 4px solid #667eea;
 }
 
-section h2 {
-  color: #667eea;
+h2 {
+  color: #f5f5f5;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   font-weight: 500;
