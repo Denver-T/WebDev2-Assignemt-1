@@ -54,3 +54,6 @@ By completing this assignment, you will practice:
 - Reinforce familarity with foundational Git Practices
 - Organizing a project with a dedicated asset folder.
 - Deploying a static website to GitHub Pages.
+
+
+trying to rebuild the deployment
